@@ -580,16 +580,51 @@ video {
   }
 }
 
-.btn {
-  --tw-bg-opacity: 1;
-  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
-  border-radius: 0.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.title-section {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.75rem;
   --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
+  color: rgba(31, 41, 55, var(--tw-text-opacity))
+}
+
+.card-section {
+  margin-top: 0.75rem;
+  text-align: center
+}
+
+@media (min-width: 768px) {
+  .card-section {
+    text-align: left;
+  }
+}
+
+.card-city-section {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+  text-transform: uppercase
+}
+
+.card-descrition-section {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity))
+}
+
+.card-prezzo-section {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin-top: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity))
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
