@@ -17,6 +17,10 @@
   @apply font-bold text-base text-gray-800
 }
 
+.card-idioma-section {
+  @apply text-gray-500 text-xs
+}
+
 .card-prezzo-section {
   @apply mt-3 text-sm text-gray-600
 }
